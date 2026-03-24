@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Support | What To Cook</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --page: #f7f2df;
+        --surface: rgba(255, 252, 245, 0.96);
+        --border: #ddd2b4;
+        --text: #1f2519;
+        --subtext: #4a5241;
+        --muted: #697260;
+        --accent: #557335;
+        --highlight: #eef3df;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: "Avenir Next", "Segoe UI", sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(232, 240, 214, 0.7), transparent 30%),
+          linear-gradient(180deg, #fbf7eb 0%, var(--page) 100%);
+        color: var(--text);
+      }
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 40px 20px 72px;
+      }
+      .card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 28px;
+        padding: 28px;
+        box-shadow: 0 12px 30px rgba(58, 51, 34, 0.08);
+      }
+      .eyebrow {
+        margin: 0 0 12px;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+      h1 {
+        margin: 0;
+        font-size: clamp(34px, 6vw, 52px);
+        line-height: 1.05;
+      }
+      .intro {
+        margin-top: 18px;
+        color: var(--subtext);
+        font-size: 17px;
+        line-height: 1.7;
+      }
+      section {
+        margin-top: 18px;
+        padding: 18px 20px;
+        border-radius: 22px;
+        border: 1px solid var(--border);
+        background: var(--highlight);
+      }
+      h2 {
+        margin: 0 0 8px;
+        font-size: 18px;
+      }
+      p, li {
+        margin: 0;
+        color: var(--subtext);
+        font-size: 15px;
+        line-height: 1.7;
+      }
+      ul {
+        margin: 8px 0 0 18px;
+        padding: 0;
+      }
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 20px;
+      }
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 46px;
+        padding: 0 18px;
+        border-radius: 16px;
+        border: 1px solid var(--border);
+        background: #ffffff;
+        color: var(--accent);
+        font-size: 15px;
+        font-weight: 700;
+        text-decoration: none;
+      }
+      a { color: var(--accent); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <p class="eyebrow">What To Cook</p>
+        <h1>Support</h1>
+        <p class="intro">
+          For help with What To Cook, bug reports, feature requests, or privacy questions, contact the developer below.
+        </p>
+
+        <section>
+          <h2>Contact</h2>
+          <p>
+            Email: <a href="mailto:densewatermelon.dev@gmail.com">densewatermelon.dev@gmail.com</a>
+          </p>
+        </section>
+
+        <section>
+          <h2>What to include</h2>
+          <ul>
+            <li>Your device model and iOS or Android version</li>
+            <li>A short description of the issue</li>
+            <li>Screenshots if something looks broken</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Common help topics</h2>
+          <ul>
+            <li>Saved meals or local recipes not appearing</li>
+            <li>Ingredient matching not behaving as expected</li>
+            <li>Ad or loading issues</li>
+            <li>Privacy questions</li>
+          </ul>
+        </section>
+
+        <div class="links">
+          <a class="button" href="./">Privacy Policy</a>
+          <a class="button" href="mailto:densewatermelon.dev@gmail.com">Email Support</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
